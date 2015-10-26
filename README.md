@@ -11,6 +11,7 @@ Just follow these simple steps
 
 # Clone local copies of BitQuark, Pre-compiled Deps, and Gitian source-codes
 Enter Ubuntu terminal
+
 `cd ~`
 
 `git clone git://github.com/bitquarkcoin/BitQuark-0.8.3r20.git bitquark`
