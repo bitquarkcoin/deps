@@ -5,8 +5,9 @@ Just follow these simple steps
 `sudo apt-get install apache2 git apt-cacher-ng python-vm-builder qemu-kvm ruby qemu-utils rubygems zip curl`
 
 # Sanity checks:
-`sudo service apt-cacher-ng status`   # Should return apt-cacher-ng is running
-`ls -l /dev/kvm`   # Should show a /dev/kvm device
+`sudo service apt-cacher-ng status` # Should return apt-cacher-ng is running
+
+`ls -l /dev/kvm` # Should show a /dev/kvm device
 
 # Clone local copies of BitQuark, Pre-compiled Deps, and Gitian source-codes
 Enter Ubuntu terminal
