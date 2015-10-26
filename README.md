@@ -12,10 +12,15 @@ Just follow these simple steps
 # Clone local copies of BitQuark, Pre-compiled Deps, and Gitian source-codes
 Enter Ubuntu terminal
 `cd ~`
+
 `git clone git://github.com/bitquarkcoin/BitQuark-0.8.3r20.git bitquark`
+
 `git clone git://github.com/devrandom/gitian-builder.git gitian`
+
 `cd gitian`
+
 `git clone https://github.com/bitquarkcoin/deps.git inputs`
+
 `zip -r inputs/bitquark-0.8.3.20.zip ../bitquark`
 
 # Build Base Virtual Machine (this will take some time so do not quit prematurely)
