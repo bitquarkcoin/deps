@@ -2,7 +2,7 @@
 Just follow these simple steps 
 
 # First, install dependencies:
-`sudo apt-get install apache2 git apt-cacher-ng python-vm-builder qemu-kvm ruby qemu-utils rubygems zip curl`
+`sudo apt-get install apache2 git apt-cacher-ng python-vm-builder qemu-kvm ruby qemu-utils zip curl`
 
 # Sanity checks:
 `sudo service apt-cacher-ng status` # Should return apt-cacher-ng is running
@@ -18,11 +18,11 @@ Enter Ubuntu terminal
 
 `git clone git://github.com/devrandom/gitian-builder.git gitian`
 
+`git clone https://github.com/bitquarkcoin/deps.git gitian/inputs`
+
+`zip -r gitian/inputs/bitquark-0.8.3.20.zip bitquark`
+
 `cd gitian`
-
-`git clone https://github.com/bitquarkcoin/deps.git inputs`
-
-`zip -r inputs/bitquark-0.8.3.20.zip ../bitquark`
 
 # Build Base Virtual Machine (this will take some time so do not quit prematurely)
 `sudo bin/make-base-vm --arch i386`
