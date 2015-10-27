@@ -2,7 +2,7 @@
 Just follow these simple steps 
 
 # First, install dependencies:
-`sudo apt-get install apache2 git apt-cacher-ng python-vm-builder qemu-kvm ruby qemu-utils rubygems zip curl`
+`sudo apt-get install apache2 git apt-cacher-ng python-vm-builder qemu-kvm ruby qemu-utils zip curl`
 
 # Sanity checks:
 `sudo service apt-cacher-ng status` # Should return apt-cacher-ng is running
